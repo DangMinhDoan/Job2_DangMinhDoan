@@ -1,0 +1,251 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlatUX\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-12 07:43+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.1; wp-6.0-alpha-53116\n"
+"X-Domain: flatux"
+
+#: admin/update.php:243
+#, php-format
+msgid "%1$sView version %2$s details%3$s or %4$supdate now%5$s."
+msgstr ""
+
+#. 1. opening anchor tag, do not translate 2. the new plugin version 3. closing anchor tag, do not translate.
+#: admin/update.php:235
+#, php-format
+msgid "%1$sView version %2$s details%3$s."
+msgstr ""
+
+#: admin/license.php:113 admin/license.php:120
+msgid "Activate License"
+msgstr ""
+
+#: admin/settings.php:61
+msgid ""
+"Are you sure? This will remove all existing plugin options and restore them "
+"to their default states."
+msgstr ""
+
+#: admin/settings.php:38
+msgid "Clean Uninstall"
+msgstr ""
+
+#: admin/update.php:230
+msgid "Contact your network administrator to install the update."
+msgstr ""
+
+#. Author of the plugin
+msgid "COP"
+msgstr ""
+
+#: admin/license.php:133
+msgid "Customer Email"
+msgstr ""
+
+#: admin/license.php:116
+msgid "Deactivate License"
+msgstr ""
+
+#: flatux.php:123 admin/donate.php:4
+msgid "Donate"
+msgstr ""
+
+#: admin/update.php:486
+msgid "Error"
+msgstr ""
+
+#: admin/license.php:163
+msgid "Expiration Date"
+msgstr ""
+
+#: admin/settings.php:77
+msgid "Export Plugin Settings"
+msgstr ""
+
+#: admin/settings.php:70
+msgid "Export Settings"
+msgstr ""
+
+#: admin/settings.php:79
+msgid ""
+"Export your FlatUX settings for this site as a .json file. This lets you "
+"easily import the configuration into another site."
+msgstr ""
+
+#. Name of the plugin
+msgid "FlatUX"
+msgstr ""
+
+#: admin/settings.php:13
+msgid "FlatUX Elements"
+msgstr ""
+
+#: flatux.php:119
+msgid "FlatUX Options"
+msgstr ""
+
+#: flatux.php:120 admin/studio.php:5
+msgid "FlatUX Studio"
+msgstr ""
+
+#: flatux.php:121 admin/templates.php:5
+msgid "FlatUX Templates"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://wpvnteam.com"
+msgstr ""
+
+#: admin/donate.php:6
+msgid ""
+"If you like the plugin, please buy me a beer 🍻 / coffee ☕️ to inspire me to "
+"develop further."
+msgstr ""
+
+#: admin/settings.php:91
+msgid "Import FlatUX settings from an exported .json file."
+msgstr ""
+
+#: admin/settings.php:231
+msgid "Import Plugin Settings"
+msgstr ""
+
+#: admin/settings.php:86
+msgid "Import Settings"
+msgstr ""
+
+#: admin/license.php:67
+msgid "License"
+msgstr ""
+
+#: admin/license.php:117
+msgid "License is activated."
+msgstr ""
+
+#: admin/license.php:121
+msgid "License is not activated."
+msgstr ""
+
+#: admin/license.php:74
+msgid "License Key"
+msgstr ""
+
+#: admin/license.php:141
+msgid "License Status"
+msgstr ""
+
+#: admin/license.php:155
+msgid "Licenses Used"
+msgstr ""
+
+#: admin/license.php:164
+msgid "Lifetime"
+msgstr ""
+
+#: admin/settings.php:18
+msgid "New Elements"
+msgstr ""
+
+#: admin/settings.php:24
+msgid ""
+"New elements for Flatsome UXBuilder (Banner / Title / Devider / Button / "
+"Image)"
+msgstr ""
+
+#: admin/functions.php:45
+msgid "No import file given."
+msgstr ""
+
+#: admin/settings.php:45
+msgid ""
+"Permanently delete all FlatUX data from your database when the plugin is "
+"uninstalled."
+msgstr ""
+
+#: admin/functions.php:53
+msgid "Please upload a valid .json file."
+msgstr ""
+
+#: flatux.php:122
+msgid "Recommended"
+msgstr ""
+
+#: admin/license.php:84
+msgid "Remove License"
+msgstr ""
+
+#: admin/license.php:146
+msgid "Renew Your License for Updates + Support!"
+msgstr ""
+
+#: admin/settings.php:63
+msgid "Restore all plugin options to their default settings."
+msgstr ""
+
+#: admin/settings.php:53 admin/settings.php:60
+msgid "Restore Default Options"
+msgstr ""
+
+#: admin/license.php:80
+msgid "Save License"
+msgstr ""
+
+#: admin/license.php:87
+msgid "Save or remove your license key."
+msgstr ""
+
+#: admin/functions.php:68
+msgid "Successfully imported FlatUX settings."
+msgstr ""
+
+#: admin/functions.php:13
+msgid "Successfully restored default options."
+msgstr ""
+
+#. the plugin name.
+#: admin/update.php:224
+#, php-format
+msgid "There is a new version of %1$s available."
+msgstr ""
+
+#. Description of the plugin
+msgid "This plugin will create new elements for flatsome. Awesome !!!"
+msgstr ""
+
+#: admin/settings.php:31
+msgid "Tools"
+msgstr ""
+
+#: admin/license.php:124
+msgid ""
+"Unlimited License needed for use in a multisite environment. Please contact "
+"support to upgrade."
+msgstr ""
+
+#: admin/update.php:254
+msgid "Update now."
+msgstr ""
+
+#: admin/update.php:486
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: admin/donate.php:7
+msgid "✅ Momo: 0907671900"
+msgstr ""
+
+#: admin/donate.php:8
+msgid "✅ Paypal"
+msgstr ""

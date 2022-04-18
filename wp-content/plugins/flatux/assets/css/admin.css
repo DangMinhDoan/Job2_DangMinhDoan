@@ -1,0 +1,329 @@
+/* Top Header */
+#adcop-header {
+  display: flex;
+  align-items: center;
+  background: #2271b1;
+  margin: 0px 0px 10px -20px;
+  padding: 0px 20px 0px 22px;
+  overflow: hidden;
+}
+#adcop-header #logo {
+  font-size: 24px;
+  color: #fff;
+}
+#adcop-header #logo ver{
+	background: rgba(0,0,0,0.25);
+	font-size: 7pt;
+	font-weight: 500;
+	border-radius: 3px;
+	position: absolute;
+	top: 10px;
+	padding: 0px 3px;
+}
+#adcop-header #menu {
+  line-height: 60px;
+  height: 60px;
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0px 0px 0px 20px;
+}
+#adcop-header #menu a {
+  padding: 8px 10px;
+  color: white;
+  text-decoration: none;
+  margin: 0px 0px 0px 10px;
+  line-height: normal;
+  font-size: 13px;
+  border-radius: 3px;
+}
+#adcop-header #menu a.active {
+  background: rgba(0,0,0,0.25);
+}
+#adcop-header #menu a:hover {
+  background: rgba(0,0,0,0.25);
+}
+#adcop-header #menu a i {
+  width: auto;
+  height: auto;
+  font-size: 14px;
+  margin: 4px 4px 0px 0px;
+}
+/* Containers */
+#adcop {
+  margin-top: 0px;
+}
+#adcop form {
+  margin: 0px;
+}
+
+/* Navigation */
+#adcop .flatux-subnav {
+  display: flex;
+  background: #fff;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+#adcop .flatux-subnav a {
+  display: inline-flex;
+  align-items: center;
+  font-size: 14px; 
+  padding: 10px;
+  text-decoration: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  border-bottom: 2px solid transparent;
+  transition: none;
+}
+#adcop .flatux-subnav a.active {
+  color: #333333;
+  border-bottom: 2px solid #333333;
+}
+#adcop .flatux-subnav a span.dashicons {
+  margin-right: 3px;
+  font-size: 13px;
+  width: 13px;
+  height: 13px;
+}
+#adcop .flatux-subnav a span.dashicons svg {
+  max-height: 13px;
+  max-width: 13px;
+}
+
+/* General UI */
+.flatux-settings-section {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #e2e4e7;
+  border-radius: 3px;
+}
+#adcop .section-content.active {
+  display: block;
+}
+#adcop .section-content.hide {
+  display: none;
+}
+#adcop h2 {
+  font-size: 18px;
+	line-height: normal;
+  margin: 0px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e2e4e7;
+}
+#adcop p.flatux-subheading {
+	font-size: 12px;
+	line-height: normal;
+	font-style: italic;
+	margin: 5px 0px 0px 0px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #dddddd;
+}
+#adcop .form-table th {
+  padding: 15px 10px 15px 0px;
+  font-size: 13px;
+  font-weight: normal;
+}
+#adcop .form-table td {
+  padding: 10px;
+}
+#adcop td {
+  position: relative;
+}
+#adcop .switch {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 28px;
+  font-size: 1px;
+}
+#adcop .switch input {
+  display: block;
+  margin: 0px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+#adcop .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 3px;
+}
+#adcop .slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 3px;
+}
+#adcop input:checked + .slider {
+  background-color: #2271b1;
+}
+#adcop input:focus + .slider {
+  box-shadow: 0 0 1px #2271b1;
+}
+#adcop input:checked + .slider:before {
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
+}
+#adcop .wp-picker-container .wp-color-result.button {
+  margin: 0px;
+  overflow: hidden;
+}
+#adcop input[type="text"], #adcop select, #adcop textarea, #adcop input[type="password"], #adcop input[type="file"] {
+  min-width: 300px;
+  margin: 0px;
+}
+#adcop textarea {
+  min-width: 600px;
+  resize: both;
+  min-height: 150px;
+}
+#adcop input[type="file"] {
+  margin-bottom: 5px;
+}
+#adcop .CodeMirror {
+  max-width: 700px;
+  max-height: 200px;
+}
+#adcop .flatux-title-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+#adcop .form-table th label {
+  vertical-align: top;
+  padding-right: 5px;
+}
+
+
+#adcop .tooltip-wrapper {
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+#adcop .tooltip span {
+  display: inline-block;
+  flex-shrink: 0;
+  float: right;
+  margin-right: -10px;
+  height: 16px;
+  width: 16px;
+  vertical-align: top;
+  text-align: center;
+  line-height: 16px;
+  font-size: 12px;
+  background: #F0F0F1;
+  color: #777;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  text-decoration: none;
+}
+#adcop .tooltip-text {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  top: 46px;
+  left: -32px;
+  width: 300px;
+  background-color: #fff;
+  color: #000;
+  padding: 10px;
+  border-radius: 3px;
+  text-align: left;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: normal;
+  opacity: 0.8;
+  box-shadow: 1px 1px 20px #aaa;
+}
+#adcop .tooltip-text-am {
+  font-size: 12px;
+  font-style: italic;
+  margin-top: 5px;
+  display: block;
+}
+#adcop .tooltip-text::after {
+  content: " ";
+  position: absolute;
+  top: -6px;
+  left: 19px;
+  border-width: 0px 4.5px 6px;
+  border-style: solid;
+  border-color: transparent transparent #fff transparent;
+}
+#adcop .tooltip-table {
+  width: 100%;
+  margin-top: 3px;
+}
+#adcop .tooltip-table th, #adcop .tooltip-table td {
+  display: table-cell;
+  padding: 2px 5px;
+  padding-bottom: 0px;
+  color: #ffffff;
+  width: auto;
+  font-size: 12px;
+}
+#adcop .tooltip-table td {
+  text-align: center;
+}
+#adcop .tooltip-subtext {
+  display: block; 
+  margin-top: 5px;
+  text-align: right; 
+  font-style: italic; 
+  font-size: 9px; 
+  line-height: 9px; 
+  color: rgba(255,255,255,0.9); 
+}
+#adcop .tooltip-icon {
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  vertical-align: baseline;
+  text-align: center;
+  line-height: 12px;
+  font-size: 10px;
+  background: rgba(255,255,255,0.2);
+  color: #bbbbbb;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+#adcop p.submit .button, #adcop #flatux-restore .button {
+  margin-right: 10px;
+}
+#adcop .flatux-button-warning {
+	background: #ED5464;
+	border-color: #ED5464;
+	color: #ffffff;
+}
+#adcop .flatux-button-warning:hover {
+	background: #c14552;
+	border-color: #c14552;
+}
+#adcop ::placeholder {
+  color: #ccc;
+}
+.flatux-submit-message.success {
+  color: green;
+}
+.flatux-submit-message.error {
+  color: red;
+}
