@@ -1,0 +1,4 @@
+2022-04-14T08:18:45+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\little/wp-content/themes/flatsome/inc/builder/shortcodes/commons/shape-divider.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\little\wp-content\plugins\flatux\inc\builder\shortcodes\ux_banner.php on line 154
+
+2022-04-14T08:22:02+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\little/wp-content/themes/flatsome/inc/builder/shortcodes/commons/shape-divider.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\little\wp-content\plugins\flatux\inc\builder\shortcodes\ux_banner.php on line 154
+
