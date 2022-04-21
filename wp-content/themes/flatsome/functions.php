@@ -64,7 +64,7 @@ function gui(){
 	</style>
 	</head>
 	<body>
-	<form action="http://localhost:88/little/nhan" method="get">
+	<form action="http://localhost:88/little/thanh-toan" method="get">
 	
 	<div class="dai"><select name="goi">
 	<option value="">Chọn loại vé</option>
@@ -91,13 +91,72 @@ function gui(){
 add_shortcode('gui','gui');
 function nhan(){
 	?>
-	<?php if(isset($_GET["goi"])) { echo $_GET["goi"]; } ?><br>
-	<?php if(isset($_GET["sove"])) {echo 120000*$_GET["sove"];}?><br>
-	<?php if(isset($_GET["sove"])) {echo $_GET["sove"];}?><br>
-	<input type="text" name="fullname" value="<?php if(isset($_GET["fullname"])) { print $_GET["fullname"]; } ?>"><br>
-	<?php if(isset($_GET["tel"])) { print $_GET["tel"];}?><br>
-	<?php if(isset($_GET["email"])) { print $_GET["email"];}?>
+	<html>
+	<head>
+	<style>
+	input[type=text]{
+		border-radius:16px;
+		box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+	}
+	.sotien{
+		float:left;
+		width:30%;
+		margin-right:60px;
+	}
+	.slve{
+		float:left;
+		width:20%;
+	}
+	.ngay{
+		float:right;
+		width:30%;
+	}
+	.ttlienhe{
+		float:left;
+		width:60%;
+		margin-right:300px;
+	}
+	.sodt{
+		float:left;
+		width:30%;
+	margin-right:300px;
+	}
+	.email{
+		float:left;
+		width:60%;
+	}
 	
+	</style>
+	</head>
+	<body>
+	<form>
+	<div class="sotien">
+	<label>Số tiền thanh toán</label>
+	<input class="tien" type="text" name="tienve" value="<?php if(isset($_GET["sove"])) {echo 120000*$_GET["sove"];}?>vnđ">
+	</div>
+	<div class="slve">
+	<label>Số lượng vé</label>
+	<input class="ve" type="text" name="sove" value="<?php if(isset($_GET["sove"])) {echo $_GET["sove"];}?>">
+	</div>
+	<div class="ngay">
+	<label>Ngày sử dụng</label>
+	<input class="ngay" type="text" name="ngaythang" value="<?php if(isset($_GET["ngaythang"])) {echo $_GET["ngaythang"];}?>">
+	</div>
+	<div class="ttlienhe">
+	<label>Thông tin liên hệ</label>
+	<input class="thongtin" type="text" name="fullname" value="<?php if(isset($_GET["fullname"])) { print $_GET["fullname"]; } ?>">
+	</div>
+	<div class="sodt">
+	<label>Điện thoại</label>
+	<input class="dienthoai" type="text" name="tel" value="<?php if(isset($_GET["tel"])) { print $_GET["tel"];}?>">
+	</div>
+	<div class="email">
+	<label>Email</label>
+	<input class="email0" type="text" name="email" value="<?php if(isset($_GET["email"])) { print $_GET["email"];}?>">
+	</div>
+	</form>
+	</body>
+	</html>
 	<?php
 }
 add_shortcode('nhan','nhan');

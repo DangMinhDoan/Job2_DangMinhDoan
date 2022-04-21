@@ -1,0 +1,22 @@
+2022-04-18T08:30:15+00:00 CRITICAL Uncaught Error: Call to undefined function isste() in C:\xampp\htdocs\little\wp-content\themes\flatsome\functions.php:112
+Stack trace:
+#0 C:\xampp\htdocs\little\wp-includes\shortcodes.php(356): nhan('', '', 'nhan')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\little\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(nhan)(...', 'do_shortcode_ta...', '\n[nhan]\n')
+#3 C:\xampp\htdocs\little\wp-content\themes\flatsome\inc\helpers\helpers-shortcode.php(203): do_shortcode('\n[nhan]\n')
+#4 C:\xampp\htdocs\little\wp-content\themes\flatsome\inc\shortcodes\row.php(208): flatsome_contentfix('\n[nhan]\n')
+#5 C:\xampp\htdocs\little\wp-includes\shortcodes.php(356): ux_col(Array, '\n[nhan]\n', 'col')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 C:\xampp\htdocs\little\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(col|nh...', 'do_shortcode_ta...', '\n[col span="10"...')
+#8 C:\xampp\htdocs\little\wp-content\themes\flatsome\inc\helpers\helpers-shortcode.php(203): in C:\xampp\htdocs\little\wp-content\themes\flatsome\functions.php on line 112
+
+2022-04-18T08:47:11+00:00 CRITICAL syntax error, unexpected 'vnđ' (T_STRING), expecting ';' or ',' in C:\xampp\htdocs\little\wp-content\themes\flatsome\functions.php on line 131
+
+2022-04-18T08:48:01+00:00 CRITICAL syntax error, unexpected 'vnđ' (T_STRING), expecting ';' or ',' in C:\xampp\htdocs\little\wp-content\themes\flatsome\functions.php on line 131
+
+2022-04-18T08:48:07+00:00 CRITICAL syntax error, unexpected 'vnđ' (T_STRING), expecting ';' or ',' in C:\xampp\htdocs\little\wp-content\themes\flatsome\functions.php on line 131
+
+2022-04-18T08:48:28+00:00 CRITICAL syntax error, unexpected 'vnđ' (T_STRING), expecting ']' in C:\xampp\htdocs\little\wp-content\themes\flatsome\functions.php on line 131
+
+2022-04-18T08:48:30+00:00 CRITICAL syntax error, unexpected 'vnđ' (T_STRING), expecting ']' in C:\xampp\htdocs\little\wp-content\themes\flatsome\functions.php on line 131
+
