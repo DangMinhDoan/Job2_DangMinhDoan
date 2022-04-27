@@ -17,3 +17,62 @@ License URI:       http://themeforest.net/licenses
 All custom CSS should be added to Flatsome > Advanced > Custom CSS,
 or in the style.css of a Child Theme.
 ***************/
+#main{
+		background: radial-gradient(97.91% 60.14% at 50% 50%, #FFDB7E 0%, #FF7A00 100%);
+		border-bottom-left-radius:32px;
+	border-bottom-right-radius:32px;
+}
+.banner {
+    background: radial-gradient(97.91% 60.14% at 50% 50%, #FFDB7E 0%, #FF7A00 100%);
+	    border-radius: 32px;
+}
+.header{
+box-shadow: 0px 4px 35px rgba(162, 58, 0, 0.75);	
+}
+.box{
+	box-shadow: 4px 4px 45px rgba(109, 46, 0, 0.35);
+	border-radius: 20px;
+}
+.box-image{
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+.banner .button{
+	filter: drop-shadow(0px 4px 8px rgba(165, 15, 15, 0.45));
+	background: #FF000A;
+}
+
+/*css cf7 */
+.trai{
+	width:39%;
+	float:left;
+}
+.phai{
+	width:59%;
+	float:right;
+}
+.full{
+	width:100%;
+	float:left;
+}
+.wpcf7 input[type="text"], .wpcf7 input[type="email"], .wpcf7 textarea, .wpcf7 input[type="tel"] {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 16px;
+	-webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+	      box-sizing: border-box;
+	box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+}
+input[type='submit'], input[type='submit'].button, input[type='submit'], .primary{
+	filter: drop-shadow(0px 4px 8px rgba(165, 15, 15, 0.45));
+font-family: 'iCiel Koni';
+font-style: normal;
+	background: #BD000B;
+	width:250px;
+	border-radius:5px;
+}
+.dai{
+	border-radius:16px;
+}

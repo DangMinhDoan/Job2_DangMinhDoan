@@ -162,7 +162,7 @@ function nhan(){
 	<form action="http://localhost:88/little/vnpay_php/vnpay_create_payment.php"  method="post">
 	<div class="sotien">
 		<label>Số tiền thanh toán</label>
-		<input class="tien" type="text" name="amount" id="amount" value="<?php if(isset($_GET["sove"])) {echo 120*$_GET["sove"];}?>vnđ">
+		<input class="tien" type="text" name="amount" id="amount" value="<?php if(isset($_GET["sove"])) {echo 120000*$_GET["sove"];}?>vnđ">
 	</div>
 	<div class="slve">
 		<label>Số lượng vé</label>
