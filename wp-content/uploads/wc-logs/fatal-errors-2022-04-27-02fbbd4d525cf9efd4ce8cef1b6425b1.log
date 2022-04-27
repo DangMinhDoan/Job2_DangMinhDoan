@@ -1,0 +1,4 @@
+2022-04-27T03:06:47+00:00 CRITICAL syntax error, unexpected '$note' (T_VARIABLE) in C:\xampp\htdocs\little\wp-content\themes\flatsome\functions.php on line 344
+
+2022-04-27T07:44:34+00:00 CRITICAL syntax error, unexpected '";' (T_CONSTANT_ENCAPSED_STRING) in C:\xampp\htdocs\little\wp-content\themes\flatsome\functions.php on line 336
+
